@@ -1,0 +1,1 @@
+This is a simple Spring Boot application example that sends vacation leaves using spring-kafka.
