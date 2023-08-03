@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    consumer:
+      group-id: payroll-accountant
+      auto-offset-reset: earliest
+    bootstrap-servers: localhost:9092
+
+tpd:
+  topic-name: vacation-leave-topic
+  messages-per-request: 10
